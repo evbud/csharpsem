@@ -4,6 +4,27 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+// int 
+
+// System.Console.WriteLine("Enter number: ");
+// int number = int.Parse(Console.ReadLine());
+
+// if (number > 99) 
+// {
+//     while (number > 999)
+//     {
+//         number = number / 10;
+//     }
+//     int num = ((number % 100) % 10);
+//     System.Console.WriteLine(num);
+// }
+// else 
+// {
+//     System.Console.WriteLine("There is no third digit");
+// }
+
+//string 
+
 System.Console.WriteLine("Enter number: ");
 string number = Console.ReadLine();
 
