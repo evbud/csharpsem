@@ -4,7 +4,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// int 
+// // int 
 
 // System.Console.WriteLine("Enter number: ");
 // int number = int.Parse(Console.ReadLine());
@@ -15,7 +15,7 @@
 //     {
 //         number = number / 10;
 //     }
-//     int num = ((number % 100) % 10);
+//     int num = number % 10;
 //     System.Console.WriteLine(num);
 // }
 // else 
