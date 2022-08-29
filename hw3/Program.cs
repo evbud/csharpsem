@@ -27,6 +27,7 @@ namespace hw3
         // 14212 -> нет
         // 23432 -> да
         // 12821 -> да
+        
         static void PalindromeCheck()
         {
             System.Console.Write("Enter 5-digit number to check if it palindrome or not: : ");
@@ -53,6 +54,7 @@ namespace hw3
         //ними в 3D пространстве.
         // A (3,6,8); B (2,1,-7), -> 15.84
         // A (7,-5, 0); B (1,-1,9) -> 11.53
+
         static void Distance3D()
         {
             System.Console.WriteLine("Enter x1: ");
