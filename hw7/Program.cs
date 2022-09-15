@@ -62,7 +62,7 @@ void PrintRandomArrayAndFindEl()
 
     int[,] randArr = GetArray(rows, columns, 0, 9);
 
-    Console.WriteLine("Дан случайный двумерный массив:\n");
+    Console.WriteLine("Задан случайный двумерный массив:\n");
     PrintArray(randArr);
     Console.WriteLine();
 
@@ -121,8 +121,10 @@ void FindAverageCol()
     int[,] intArr = GetArray(new Random().Next(2, 10), new Random().Next(2, 10), 0, 9);
     
     Console.WriteLine();
+    Console.WriteLine("Задан случайный массив: ");
     PrintArray(intArr);
 
+    Console.WriteLine("Среднее арифметическое каждого столбца: ");
     float sum = 0;
     for (int i = 0; i < intArr.GetLength(1); i++)
     {
@@ -134,6 +136,5 @@ void FindAverageCol()
         sum = 0;
     }   
 }
-
 
 FindAverageCol();
